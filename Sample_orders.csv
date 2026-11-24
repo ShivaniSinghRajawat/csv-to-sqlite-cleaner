@@ -1,0 +1,6 @@
+order_id,customer_email,order_date,amount_inr,status
+101, alice@example.com ,2026-10-01,1250.50,COMPLETED
+102,bob@example.com,01/10/2026,,COMPLETED
+101, alice@example.com ,2026-10-01,1250.50,COMPLETED
+103,charlie@example.com,2026-10-02,-50.00,REFUNDED
+104,,2026-10-03,800,pending
