@@ -97,7 +97,7 @@ def load_to_sqlite(db_path: Path, records: list[tuple]) -> None:
 
 def main() -> None:
     base_dir = Path(__file__).parent
-    csv_path = base_dir / "sample_orders.csv"
+    csv_path = base_dir / "Sample_orders.csv"
     db_path = base_dir / "orders.db"
 
     with csv_path.open(mode="r", encoding="utf-8", newline="") as f:
